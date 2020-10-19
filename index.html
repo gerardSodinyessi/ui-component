@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>La preconstruction des component</title>
+  <link rel="stylesheet"  href="button.css" />
+  <link rel="stylesheet"  href="User-Profile-Card.css" />
+  <link rel="stylesheet"  href="Company-Logo.css"/>
+  <link rel="stylesheet"  href="loader.css"/>
+  <link rel="stylesheet"  href="StarRating.css"/>
+  <link rel="stylesheet"  href="BorderLinks.css"/>
+  <link rel="stylesheet"  href="card-card.css" />
+
+
+
+
+</head>
+
+<body>
+
+    <div>
+        <h1>Button</h1>
+        <button class="button" style="vertical-align:middle"><span>Hover </span></button>
+    </div>
+        <h2>Alert Messages</h2>
+        <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+        </div>
+
+
+        <h2>Card</h2>
+
+<div class="card">
+  <img src="up.jpg" alt="Avatar" style="width:100%" class="imageI">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p>
+  </div>
+</div>
+
+<div>
+    <h1>Loader</h1>
+    <div class="loader"></div>
+</div>
+<div>
+    <h1>Card Flip with Text</h1>
+    <h3>Hover over the image below:</h3>
+    
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="up.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>SODINYESSI Gérard</h1> 
+          <p>Developer full stack</p> 
+          <p>We love that guy</p>
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<h1>Custom Range Slider</h1>
+
+<div class="slidecontainer">
+  <p>Default range slider:</p>
+  <input type="range" min="1" max="100" value="50" id="webkit-slider-thumb">
+  <p>Custom range slider:</p>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+  <div style="padding-left:16px">
+    <h2>Border Links</h2>
+    <p>Hover over the links.</p>
+  </div>
+  
+  <h1>card</h1>
+  <div id="card-card">
+    <div>
+      <img src="up.jpg" alt="Avatar" style="width:200px;height:230px;padding-top: 15px;padding-right: 15px;padding-left: 5px;">
+    </div>
+    <div>
+     <div>
+       <h1>Michael DURANT</h1>
+       <p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aut quos laborum
+           voluptates repellendus vel doloremque
+            dolorem unde provident accusamus laudantium
+       </p>
+       <button class="btn info">Abonnez</button>
+       <button class="btn danger">Désbonnez</button>
+     </div>
+    </div>
+  </div>
+</body>
+</html>
